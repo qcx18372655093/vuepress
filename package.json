@@ -1,0 +1,17 @@
+{
+    "name": "vuepress",
+    "version": "1.0.0",
+    "description": "vuepress 学习",
+    "main": "index.js",
+    "author": "qcx",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "vue-template-compiler": "^2.7.16",
+        "vuepress": "^1.9.9"
+    },
+    "scripts": {
+        "docs:dev": "vuepress dev docs --temp .temp",
+        "docs:build": "vuepress build docs"
+    }
+}
